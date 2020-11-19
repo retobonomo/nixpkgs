@@ -20315,6 +20315,8 @@ julia_15 = callPackage ../development/compilers/julia/1.5.nix {
 
   calculix = callPackage ../applications/science/math/calculix {};
 
+  calculix-cgx = callPackage ../applications/science/math/calculix-cgx {};
+
   calibre-py2 = libsForQt5.callPackage ../applications/misc/calibre { pythonPackages = python2Packages; };
 
   calibre-py3 = libsForQt5.callPackage ../applications/misc/calibre { pythonPackages = python3Packages; };
