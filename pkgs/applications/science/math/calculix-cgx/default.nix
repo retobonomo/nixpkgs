@@ -22,7 +22,6 @@ stdenv.mkDerivation rec {
     ];
 
   installPhase = ''
-#    install -Dm0755 cgx $out/bin/cgx
     install -D cgx $out/bin/cgx
   '';
 
